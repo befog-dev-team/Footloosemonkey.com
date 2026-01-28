@@ -1,4 +1,4 @@
-import prisma from '../../../lib/prisma'; // Adjust the path as necessary
+import { prisma } from '../../../lib/prisma'; // Adjust the path as necessary
 
 export async function GET(req) {
   try {
